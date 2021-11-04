@@ -1,0 +1,17 @@
+---
+- hosts: jitsi
+  become: true
+  tasks:
+
+  - name: Creates directory "custom_prosody_plugins"
+    file:
+      path: /home/Jenkins/
+      state: directory
+
+  - name: 
+      file: 
+       path: /usr/jenkins.txt
+       state: touch
+       owner: root
+       group: root
+       mode: 0600
