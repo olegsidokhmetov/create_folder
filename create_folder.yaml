@@ -1,5 +1,5 @@
 ---
-- hosts: jitsi
+- hosts: 80.78.244.214
   become: true
   tasks:
 
