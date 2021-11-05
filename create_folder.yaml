@@ -9,9 +9,9 @@
       state: directory
 
   - name: 
-      file: 
-       path: /usr/jenkins.txt
-       state: touch
-       owner: root
-       group: root
-       mode: 0600
+    file: 
+      path: /usr/jenkins.txt
+      state: touch
+      owner: root
+      group: root
+      mode: 0600
