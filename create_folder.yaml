@@ -3,7 +3,7 @@
   become: true
   tasks:
 
-  - name: Creates directory "custom_prosody_plugins"
+  - name: Creates directory "Jenkins"
     file:
       path: /home/Jenkins/
       state: directory
